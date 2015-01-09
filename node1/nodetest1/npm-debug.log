@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', 'nano' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'nano', null ]
+6 verbose cache add name=undefined spec="nano" args=["nano",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'nano',
+7 verbose parsed url   path: 'nano',
+7 verbose parsed url   href: 'nano' }
+8 silly lockFile e6efbd8a-nano nano
+9 verbose lock nano /home/ashish/.npm/e6efbd8a-nano.lock
+10 silly lockFile e6efbd8a-nano nano
+11 silly lockFile e6efbd8a-nano nano
+12 verbose addNamed [ 'nano', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 80d374de-nano nano@
+15 verbose lock nano@ /home/ashish/.npm/80d374de-nano.lock
+16 silly addNameRange { name: 'nano', range: '*', hasData: false }
+17 verbose url raw nano
+18 verbose url resolving [ 'https://registry.npmjs.org/', './nano' ]
+19 verbose url resolved https://registry.npmjs.org/nano
+20 info trying registry request attempt 1 at 15:38:24
+21 http GET https://registry.npmjs.org/nano
+22 http 200 https://registry.npmjs.org/nano
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Tue, 06 Jan 2015 10:08:41 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"D3YX567RMF3W12LJD4HYCNZEF"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=60',
+23 silly registry.get     'content-length': '256231',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '1',
+23 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1420538920.026581,VS0,VE1248',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'nano', range: '*', hasData: true }
+25 silly addNameRange versions [ 'nano',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.0.3',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.7',
+25 silly addNameRange     '0.1.8',
+25 silly addNameRange     '0.1.9',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.3.1',
+25 silly addNameRange     '0.3.2',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.4.1',
+25 silly addNameRange     '0.4.2',
+25 silly addNameRange     '0.4.3',
+25 silly addNameRange     '0.4.4',
+25 silly addNameRange     '0.4.5',
+25 silly addNameRange     '0.4.6',
+25 silly addNameRange     '0.5.3',
+25 silly addNameRange     '0.5.4',
+25 silly addNameRange     '0.5.5',
+25 silly addNameRange     '0.5.6',
+25 silly addNameRange     '0.5.7',
+25 silly addNameRange     '0.5.8',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.6.1',
+25 silly addNameRange     '0.6.2',
+25 silly addNameRange     '0.6.4',
+25 silly addNameRange     '0.6.5',
+25 silly addNameRange     '0.6.6',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.7.1',
+25 silly addNameRange     '0.7.2',
+25 silly addNameRange     '0.7.3',
+25 silly addNameRange     '0.7.4',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.8.2',
+25 silly addNameRange     '0.8.3',
+25 silly addNameRange     '0.8.4',
+25 silly addNameRange     '0.8.5',
+25 silly addNameRange     '0.8.6',
+25 silly addNameRange     '0.8.7',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.9.1',
+25 silly addNameRange     '0.9.2',
+25 silly addNameRange     '0.9.3',
+25 silly addNameRange     '0.9.4',
+25 silly addNameRange     '0.9.5',
+25 silly addNameRange     '0.9.7',
+25 silly addNameRange     '0.9.8',
+25 silly addNameRange     '1.0.0',
+25 silly addNameRange     '1.0.1',
+25 silly addNameRange     '1.0.2',
+25 silly addNameRange     '1.1.0',
+25 silly addNameRange     '1.1.1',
+25 silly addNameRange     '1.1.2',
+25 silly addNameRange     '1.1.3',
+25 silly addNameRange     '1.1.4',
+25 silly addNameRange     '1.1.5',
+25 silly addNameRange     '1.2.0',
+25 silly addNameRange     '1.2.1',
+25 silly addNameRange     '1.3.0',
+25 silly addNameRange     '1.3.1',
+25 silly addNameRange     '1.3.2',
+25 silly addNameRange     '1.3.3',
+25 silly addNameRange     '1.3.4',
+25 silly addNameRange     '1.3.5',
+25 silly addNameRange     '1.3.37',
+25 silly addNameRange     '1.3.8',
+25 silly addNameRange     '1.3.9',
+25 silly addNameRange     '2.0.0',
+25 silly addNameRange     '2.1.0',
+25 silly addNameRange     '2.1.1',
+25 silly addNameRange     '3.0.0',
+25 silly addNameRange     '3.0.1',
+25 silly addNameRange     '3.0.3',
+25 silly addNameRange     '3.0.4',
+25 silly addNameRange     '3.0.5',
+25 silly addNameRange     '3.0.6',
+25 silly addNameRange     '3.0.7',
+25 silly addNameRange     '3.0.8',
+25 silly addNameRange     '3.0.9',
+25 silly addNameRange     '3.1.0',
+25 silly addNameRange     '3.1.1',
+25 silly addNameRange     '3.1.2',
+25 silly addNameRange     '3.1.3',
+25 silly addNameRange     '3.2.0',
+25 silly addNameRange     '3.3.0',
+25 silly addNameRange     '3.3.1',
+25 silly addNameRange     '3.3.2',
+25 silly addNameRange     '3.3.3',
+25 silly addNameRange     '3.3.4',
+25 silly addNameRange     '3.3.5',
+25 silly addNameRange     '3.3.6',
+25 silly addNameRange     '3.3.7',
+25 silly addNameRange     '3.3.8',
+25 silly addNameRange     '3.4.0',
+25 silly addNameRange     '4.0.0',
+25 silly addNameRange     '4.1.1',
+25 silly addNameRange     '4.1.3',
+25 silly addNameRange     '4.1.4',
+25 silly addNameRange     '4.2.0',
+25 silly addNameRange     '4.2.1',
+25 silly addNameRange     '4.3.0',
+25 silly addNameRange     '4.4.0',
+25 silly addNameRange     '4.6.1',
+25 silly addNameRange     '4.7.1',
+25 silly addNameRange     '5.7.1',
+25 silly addNameRange     '5.8.0',
+25 silly addNameRange     '5.9.0',
+25 silly addNameRange     '5.9.1',
+25 silly addNameRange     '5.10.0',
+25 silly addNameRange     '5.11.0',
+25 silly addNameRange     '5.11.2',
+25 silly addNameRange     '5.12.0',
+25 silly addNameRange     '5.12.2',
+25 silly addNameRange     '6.0.0',
+25 silly addNameRange     '6.0.1',
+25 silly addNameRange     '6.0.2' ] ]
+26 verbose addNamed [ 'nano', '6.0.2' ]
+27 verbose addNamed [ '6.0.2', '6.0.2' ]
+28 silly lockFile 5c870142-nano-6-0-2 nano@6.0.2
+29 verbose lock nano@6.0.2 /home/ashish/.npm/5c870142-nano-6-0-2.lock
+30 silly lockFile b4829bb7-ry-npmjs-org-nano-nano-6-0-2-tgz https://registry.npmjs.org/nano/-/nano-6.0.2.tgz
+31 verbose lock https://registry.npmjs.org/nano/-/nano-6.0.2.tgz /home/ashish/.npm/b4829bb7-ry-npmjs-org-nano-nano-6-0-2-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/nano/-/nano-6.0.2.tgz',
+32 verbose addRemoteTarball   '98709e1ba839290b8e996942ab15b33e4c760e98' ]
+33 silly lockFile b4829bb7-ry-npmjs-org-nano-nano-6-0-2-tgz https://registry.npmjs.org/nano/-/nano-6.0.2.tgz
+34 silly lockFile b4829bb7-ry-npmjs-org-nano-nano-6-0-2-tgz https://registry.npmjs.org/nano/-/nano-6.0.2.tgz
+35 silly lockFile 5c870142-nano-6-0-2 nano@6.0.2
+36 silly lockFile 5c870142-nano-6-0-2 nano@6.0.2
+37 silly lockFile 80d374de-nano nano@
+38 silly lockFile 80d374de-nano nano@
+39 error Error: EACCES, mkdir '/home/ashish/tmp/npm-7859-bQKa0dMk'
+39 error  { [Error: EACCES, mkdir '/home/ashish/tmp/npm-7859-bQKa0dMk']
+39 error   errno: 3,
+39 error   code: 'EACCES',
+39 error   path: '/home/ashish/tmp/npm-7859-bQKa0dMk',
+39 error   parent: 'nodetest1' }
+40 error Please try running this command again as root/Administrator.
+41 error System Linux 3.2.0-23-generic
+42 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "nano"
+43 error cwd /home/ashish/anu/node1/nodetest1
+44 error node -v v0.10.29
+45 error npm -v 1.4.14
+46 error path /home/ashish/tmp/npm-7859-bQKa0dMk
+47 error code EACCES
+48 error errno 3
+49 error stack Error: EACCES, mkdir '/home/ashish/tmp/npm-7859-bQKa0dMk'
+50 verbose exit [ 3, true ]
