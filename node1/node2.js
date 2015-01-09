@@ -1,5 +1,7 @@
 var mongo = require('mongoose');
 
+
+
 mongo.connect('mongodb://localhost/energytest');
 
 var db = mongo.connection;
